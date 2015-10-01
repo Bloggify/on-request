@@ -1,0 +1,28 @@
+{
+  "name": "bloggify-on-request",
+  "version": "1.0.0",
+  "description": "Do custom stuff on request and optionally send a custom response.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Bloggify/on-request.git"
+  },
+  "keywords": [
+    "request",
+    "bloggify",
+    "custom"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/Bloggify/on-request/issues"
+  },
+  "homepage": "https://github.com/Bloggify/on-request#readme",
+  "dependencies": {
+    "iterate-object": "^1.1.0"
+  },
+  "devDependencies": {}
+}

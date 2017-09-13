@@ -1,5 +1,6 @@
 "use strict";
 
-const bloggifyTheme = require("../lib");
+const theme = require("../lib");
 
-console.log(bloggifyTheme());
+// Call this in your theme file
+module.exports = conf => theme(conf, __dirname)
